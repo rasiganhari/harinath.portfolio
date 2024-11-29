@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I'm a full stack developer proficient in PHP, Laravel, Angular, React, ionic, Node.js, Express.js, MySQL, and MongoDB. My focus lies in crafting exceptional digital experiences that are fast, accessible, visually appealing, and responsive. With over 7 years of experience in web application development, I continuously strive to create innovative solutions. Despite my years in the field, my passion for web development remains as strong as ever.
+              I&apos;m a full stack developer proficient in PHP, Laravel, Angular, React, ionic, Node.js, Express.js, MySQL, and MongoDB. My focus lies in crafting exceptional digital experiences that are fast, accessible, visually appealing, and responsive. With over 7 years of experience in web application development, I continuously strive to create innovative solutions. Despite my years in the field, my passion for web development remains as strong as ever.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

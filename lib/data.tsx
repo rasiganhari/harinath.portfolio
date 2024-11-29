@@ -84,19 +84,19 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIAL_LINKS = [
-  // {
-  //   icon: Github,
-  //   url: 'https://github.com/MHarinath',
-  // },
-  // {
-  //   icon: Linkedin,
-  //   url: 'https://www.linkedin.com/in/harinath-m-097a7aa4/',
-  // }
-  // ,
-  // {
-  //   icon: Figma,
-  //   url: 'https://www.figma.com/@harinathm',
-  // },
+  {
+    icon: 'Github',
+    url: 'https://github.com/MHarinath',
+  },
+  {
+    icon: 'Linkedin',
+    url: 'https://www.linkedin.com/in/harinath-m-097a7aa4/',
+  }
+  ,
+  {
+    icon: 'Figma',
+    url: 'https://www.figma.com/@harinathm',
+  },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
