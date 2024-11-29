@@ -9,9 +9,9 @@ import Footer from '../components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Harinath M | Full Stack Developer From Bangalore, India.';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
+  'A self-proclaimed developer who specializes in full stack development (Angular, PHP, Laravel,React.js & Node.js, Mysql, MongoDB), from Bangalore, India.';
 const url = 'https://harinath.dev';
 
 export const metadata: Metadata = {
@@ -20,11 +20,12 @@ export const metadata: Metadata = {
   description,
   keywords: [
     'Frontend Developer',
+    'Backend Developer',
     'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Harinath M',
   openGraph: {
     type: 'website',
     url,
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
         url: '/images/open-graph-sagar.png',
         width: 1200,
         height: 630,
-        alt: 'Sagar Shah Portfolio',
+        alt: 'Harinath M Portfolio',
       },
     ],
   },
