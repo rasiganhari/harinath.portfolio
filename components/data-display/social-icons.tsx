@@ -1,7 +1,7 @@
 'use client';
 
-import { SOCIAL_LINKS } from '@/lib/data';
-import IconButton from '@/components/general/icon-button';
+import { SOCIAL_LINKS } from '../../lib/data';
+import IconButton from '../../components/general/icon-button';
 
 const SocialIcons = () => {
   return (

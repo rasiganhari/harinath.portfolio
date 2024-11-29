@@ -53,7 +53,7 @@ import {
   ProjectDetails,
   TechDetails,
   TestimonialDetails,
-} from '@/lib/types';
+} from '../lib/types';
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/shahsagarm',

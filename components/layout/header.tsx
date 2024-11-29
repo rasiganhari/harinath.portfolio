@@ -8,16 +8,16 @@ import {
   DrawerTrigger,
   DrawerContent,
   DrawerClose,
-} from '@/components/navigation/drawer';
-import { NAV_LINKS } from '@/lib/data';
-import { mergeClasses } from '@/lib/utils';
-import useWindowSize from '@/hooks/use-window-size';
-import useScroll from '@/hooks/use-scroll';
-import Link from '@/components/navigation/link';
-import ThemeSwitcher from '@/components/general/theme-switcher';
-import IconButton from '@/components/general/icon-button';
-import DownloadCV from '@/components/general/download-cv';
-import Typography from '@/components/general/typography';
+} from '../navigation/drawer';
+import { NAV_LINKS } from '../../lib/data';
+import { mergeClasses } from '../../lib/utils';
+import useWindowSize from '../../hooks/use-window-size';
+import useScroll from '../../hooks/use-scroll';
+import Link from '../navigation/link';
+import ThemeSwitcher from '../general/theme-switcher';
+import IconButton from '../general/icon-button';
+import DownloadCV from '../general/download-cv';
+import Typography from '../general/typography';
 
 const Logo = () => (
   <Typography variant="h3" className="font-bold">

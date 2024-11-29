@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { mergeClasses } from '@/lib/utils';
+import { mergeClasses } from '../../lib/utils';
 
 interface ContainerProps extends React.HTMLAttributes<HTMLElement> {}
 

@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as DrawerPrimitive from '@radix-ui/react-dialog';
 import { cva, type VariantProps } from 'class-variance-authority';
 
-import { mergeClasses } from '@/lib/utils';
+import { mergeClasses } from '../../lib/utils';
 
 const Drawer = DrawerPrimitive.Root;
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { mergeClasses } from '@/lib/utils';
-import Typography from '@/components/general/typography';
+import { mergeClasses } from '../../lib/utils';
+import Typography from '../../components/general/typography';
 
 interface TagProps extends React.HTMLAttributes<HTMLDivElement> {
   label?: string;
