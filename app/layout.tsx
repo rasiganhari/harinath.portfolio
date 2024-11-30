@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     images: '/images/open-graph-sagar.png',
   },
   icons: {
-    icon: 'favicon.ico',
+    icon: 'favicon1.ico',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
