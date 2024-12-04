@@ -13,6 +13,10 @@ import LogoGit from '/public/images/logos/icon-git.svg';
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
+import PhpLogo from '/public/images/logos/php.svg';
+import AngularLogo from '/public/images/logos/angular.svg';
+import LaravelLogo from '/public/images/logos/laravel.svg';
+import MysqlLogo from '/public/images/logos/mysql.svg';
 
 import PrvigaLogo from '/public/images/experience-logos/widhuni-logo.png';
 import DalvkotLogo from '/public/images/experience-logos/dalvkot.png';
@@ -81,6 +85,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
+ 
   {
     label: 'Javascript',
     logo: LogoJavascript,
@@ -159,6 +164,26 @@ export const TECHNOLOGIES: TechDetails[] = [
   //   logo: LogoStorybook,
   //   url: 'https://storybook.js.org/',
   // },
+  {
+    label: 'Angular',
+    logo: AngularLogo,
+    url: 'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started',
+  },
+  {
+    label: 'PHP',
+    logo: PhpLogo,
+    url: 'https://developer.mozilla.org/en-US/docs/Glossary/PHP',
+  },
+  {
+    label: 'Laravel',
+    logo: LaravelLogo,
+    url: 'https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks',
+  },
+  {
+    label: 'Mysql',
+    logo: MysqlLogo,
+    url: 'https://www.mysql.com/',
+  },
   {
     label: 'Git',
     logo: LogoGit,
