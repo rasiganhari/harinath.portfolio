@@ -180,7 +180,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks',
   },
   {
-    label: 'Mysql',
+    label: 'MySQL',
     logo: MysqlLogo,
     url: 'https://www.mysql.com/',
   },
