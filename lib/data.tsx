@@ -1,41 +1,39 @@
 
-import LogoJavascript from '../public/images/logos/icon-javascript.svg';
-import LogoTypescript from '../public/images/logos/icon-typescript.svg';
-import LogoReact from '../public/images/logos/icon-react.svg';
-import LogoNextjs from '../public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '../public/images/logos/icon-nodejs.svg';
-import LogoExpress from '../public/images/logos/icon-express.svg';
-import LogoExpressLight from '../public/images/logos/icon-express-light.svg';
-import LogoPostgreSQL from '../public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '../public/images/logos/icon-mongodb.svg';
-import LogoTailwindcss from '../public/images/logos/icon-tailwindcss.svg';
-import LogoGit from '../public/images/logos/icon-git.svg';
-import AvatarKrisztian from '../public/images/avatar-krisztian.png';
-import AvatarEugen from '../public/images/avatar-eugen.png';
-import AvatarDummy from '../public/images/avatar-dummy.svg';
-import PhpLogo from '../public/images/logos/php.svg';
-import AngularLogo from '../public/images/logos/angular.svg';
-import LaravelLogo from '../public/images/logos/laravel.svg';
-import MysqlLogo from '../public/images/logos/mysql.svg';
+import LogoJavascript from '@/public/images/logos/icon-javascript.svg';
+import LogoTypescript from '@/public/images/logos/icon-typescript.svg';
+import LogoReact from '@/public/images/logos/icon-react.svg';
+import LogoNextjs from '@/public/images/logos/icon-nextjs.svg';
+import LogoNodejs from '@/public/images/logos/icon-nodejs.svg';
+import LogoExpress from '@/public/images/logos/icon-express.svg';
+import LogoExpressLight from '@/public/images/logos/icon-express-light.svg';
+import LogoPostgreSQL from '@/public/images/logos/icon-postgresql.svg';
+import LogoMongoDB from '@/public/images/logos/icon-mongodb.svg';
+import LogoTailwindcss from '@/public/images/logos/icon-tailwindcss.svg';
+import LogoGit from '@/public/images/logos/icon-git.svg';
+import AvatarKrisztian from '@/public/images/avatar-krisztian.png';
+import AvatarEugen from '@/public/images/avatar-eugen.png';
+import AvatarDummy from '@/public/images/avatar-dummy.svg';
+import PhpLogo from '@/public/images/logos/php.svg';
+import AngularLogo from '@/public/images/logos/angular.svg';
+import LaravelLogo from '@/public/images/logos/laravel.svg';
+import MysqlLogo from '@/public/images/logos/mysql.svg';
 
-import PrvigaLogo from '../public/images/experience-logos/widhuni-logo.png';
-import DalvkotLogo from '../public/images/experience-logos/dalvkot.png';
-import AxiomLogo from '../public/images/experience-logos/axiom.svg';
-import GyritLogo from '../public/images/experience-logos/gyrit.jpg';
-import We4Logo from '../public/images/experience-logos/we4.png';
+import PrvigaLogo from '@/public/images/experience-logos/widhuni-logo.png';
+import DalvkotLogo from '@/public/images/experience-logos/dalvkot.png';
+import AxiomLogo from '@/public/images/experience-logos/axiom.svg';
+import GyritLogo from '@/public/images/experience-logos/gyrit.jpg';
+import We4Logo from '@/public/images/experience-logos/we4.png';
 
-import CryptoForceImage from '../public/images/projects/cryptoforce.png';
-import LatimesImage from '../public/images/projects/latimes.png';
-import WiduniImage from '../public/images/projects/widuni.png';
-
-
+import CryptoForceImage from '@/public/images/projects/cryptoforce.png';
+import LatimesImage from '@/public/images/projects/latimes.png';
+import WiduniImage from '@/public/images/projects/widuni.png';
 
 import {
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
   TestimonialDetails,
-} from '../lib/types';
+} from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/rasiganhari',
