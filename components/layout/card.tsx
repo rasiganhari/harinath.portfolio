@@ -1,4 +1,4 @@
-import { mergeClasses } from '../../lib/utils';
+import { mergeClasses } from '@/lib/utils';
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {}
 

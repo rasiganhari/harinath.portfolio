@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 
-import { mergeClasses } from '../../lib/utils';
+import { mergeClasses } from '@/lib/utils';
 
 const typographyVariants = cva('text-gray-600 text-normal', {
   variants: {

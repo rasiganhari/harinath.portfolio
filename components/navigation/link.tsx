@@ -1,7 +1,7 @@
 import * as React from 'react';
 import NextLink, { LinkProps as NextLinkProps } from 'next/link';
 
-import { mergeClasses } from '../../lib/utils';
+import { mergeClasses } from '@/lib/utils';
 
 interface LinkProps extends NextLinkProps {
   className?: string;

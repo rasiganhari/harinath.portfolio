@@ -1,6 +1,6 @@
 'use client';
 
-import Button from '../../components/general/button';
+import Button from '@/components/general/button';
 
 const DownloadCV = () => {
   return (

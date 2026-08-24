@@ -4,13 +4,13 @@ import { useState } from 'react';
 import { Copy, Mail, Phone } from 'lucide-react';
 // import Link from 'next/link';
 
-import SocialIcons from '../../components/data-display/social-icons';
-import Tag from '../../components/data-display/tag';
-import IconButton from '../../components/general/icon-button';
-import Typography from '../../components/general/typography';
-import Container from '../../components/layout/container';
-import useWindowSize from '../../hooks/use-window-size';
-import { copyTextToClipboard } from '../../lib/utils';
+import SocialIcons from '@/components/data-display/social-icons';
+import Tag from '@/components/data-display/tag';
+import IconButton from '@/components/general/icon-button';
+import Typography from '@/components/general/typography';
+import Container from '@/components/layout/container';
+import useWindowSize from '@/hooks/use-window-size';
+import { copyTextToClipboard } from '@/lib/utils';
 
 let email = 'hariashwin005@gmail.com';
 let phone = '+91 8838182377';

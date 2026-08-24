@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { MoonStar, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 
-import IconButton from '../../components/general/icon-button';
+import IconButton from '@/components/general/icon-button';
 
 const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false);
