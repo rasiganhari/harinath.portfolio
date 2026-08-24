@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/thumbnail.png',
         width: 1200,
         height: 630,
         alt: 'Harinath M Portfolio',
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
+    creator: '@harinathm',
+    images: '/thumbnail.png',
   },
   icons: {
     icon: 'favicon1.ico',
